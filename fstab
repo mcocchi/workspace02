@@ -1,0 +1,14 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Tue Jan  5 10:30:35 2021
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk/'.
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info.
+#
+# After editing this file, run 'systemctl daemon-reload' to update systemd
+# units generated from this file.
+#
+/dev/mapper/vg_root-lv_root /                       xfs     defaults        0 0
+UUID=7107a8da-3296-45ec-a39c-380a24cead6a /boot                   xfs     defaults        0 0
+/dev/mapper/vg_root-lv_swap none                    swap    defaults        0 0

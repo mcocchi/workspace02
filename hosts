@@ -1,0 +1,15 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+
+
+####### test apache virtualhosts su secondary IP  per prova load balancing con haproxy
+
+172.16.1.15	www.dummy01.com
+172.16.1.16	www.dummy02.com
+
+172.16.1.14	apache-host
+
+######## test ansible con scambio chiavi ssh
+
+172.16.1.81	dummy01
+172.16.1.82	dummy02
+
